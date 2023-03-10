@@ -17,7 +17,7 @@ h1 {
     color: brown;
 }
 body {
-    background: #fcfced;
+    background: #fad9c7;
 }
 
 p {
@@ -30,4 +30,20 @@ b {
     font-family: Arial, sans-serif;
     font-size: 20px;
     color: black;
+}
+
+.bayan-container {
+    display: flex;
+    flex-direction: column;
+}
+.bayan-header {
+    background-color: #ffa7a7;
+    color: #333;
+    cursor: pointer;
+    padding: 10px;
+}
+.bayan-body {
+    background-color: #fff;
+    display: none;
+    padding: 10px;
 }
